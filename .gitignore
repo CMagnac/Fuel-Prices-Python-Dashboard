@@ -1,4 +1,28 @@
+# Environment
+.env
+.env.*
 env/
-drafts/
-.env/
+venv/
+# Python cache & compiled files
 __pycache__/
+*.py[cod]
+*$py.class
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+# Jupyter Notebook
+.ipynb_checkpoints/
+# Local development
+drafts/
+*.log
+# OS-specific files
+.DS_Store
+Thumbs.db
+# IDE / Editor
+.vscode/
+.idea/
+# Data (optional)
+data/raw/
+data/processed/

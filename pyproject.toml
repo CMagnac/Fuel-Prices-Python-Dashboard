@@ -1,0 +1,15 @@
+[project]
+name = "fuel-price-dashboard"
+version = "0.1.0"
+description = "Fuel price data pipeline and dashboard"
+dependencies = [
+    "pandas",
+    "requests",
+    "dash",
+    "plotly",
+    "python-dotenv",
+    "jupyter"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
