@@ -13,7 +13,7 @@ This project builds a complete data pipeline (download → clean → analyze) an
 ## Installation
 
 ```bash
-git clone https://github.com/cmagnac/fuel-price-dashboard.git
+git clone https://github.com/CMagnac/Fuel-Prices-Python-Dashboard.git
 cd fuel-price-dashboard
 python -m venv env
 source venv/bin/activate  # Mac/Linux
