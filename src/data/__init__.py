@@ -1,1 +1,1 @@
-__all__ = ["clean", "dowload", "pipeline"]
+__all__ = ["clean", "download", "pipeline"]
