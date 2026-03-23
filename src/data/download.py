@@ -13,6 +13,3 @@ def download_data():
     with open(file_path, "wb") as f:
         f.write(response.content)
     return str(file_path)
-
-if __name__ == "__main__":
-    download_data()
