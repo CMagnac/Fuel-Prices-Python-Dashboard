@@ -52,7 +52,7 @@ The application **automatically retrieves** daily fuel price data, cleans and pr
 * Python-dotenv 1.2.2
 * Jupyter 1.1.1
 
-## Installation
+## Installation and Usage
 
 ```bash
 git clone https://github.com/CMagnac/Fuel-Prices-Python-Dashboard.git
@@ -62,6 +62,9 @@ source env/bin/activate  # Mac/Linux
 env\Scripts\activate     # Windows
 pip install -r requirements.txt
 pip install -e .
+python src/dashboard/app.py
 ```
 
 ## Demo
+
+![app](Img/demo.png)
